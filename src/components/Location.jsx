@@ -1,0 +1,2 @@
+import { ADDRESS, MAPS_URL, MAP_EMBED } from '../data';
+export default function Location(){return <section className="section location" id="ubicacion"><div><p className="section-label">Ubicación</p><h2>El antojo del mar en Santa Tere.</h2><p>{ADDRESS}</p><a className="btn primary" href={MAPS_URL} target="_blank" rel="noreferrer">Abrir en Google Maps</a></div><iframe title="Mapa de Mariscos Santa Tere" src={MAP_EMBED} loading="lazy" referrerPolicy="no-referrer-when-downgrade" /></section>}

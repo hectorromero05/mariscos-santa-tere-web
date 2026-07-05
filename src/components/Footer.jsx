@@ -1,0 +1,2 @@
+import { ADDRESS, MAPS_URL, PHONE_DISPLAY, WHATSAPP_URL } from '../data';
+export default function Footer(){return <footer><h2>Mariscos Santa Tere</h2><p>Tel. <a href="tel:+523314446421">{PHONE_DISPLAY}</a></p><p>{ADDRESS}</p><nav><a href={MAPS_URL} target="_blank" rel="noreferrer">Google Maps</a><a href={WHATSAPP_URL} target="_blank" rel="noreferrer">WhatsApp</a></nav><small>Menú y precios sujetos a disponibilidad.</small></footer>}

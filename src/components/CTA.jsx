@@ -1,0 +1,2 @@
+import { MAPS_URL, WHATSAPP_URL } from '../data';
+export default function CTA(){return <section className="cta burned"><h2>¿Se te antojó un coctel?</h2><p>Escríbenos por WhatsApp y ven a probar Mariscos Santa Tere.</p><div><a className="btn coral" href={WHATSAPP_URL} target="_blank" rel="noreferrer">Pedir por WhatsApp</a><a className="btn ink" href={MAPS_URL} target="_blank" rel="noreferrer">Cómo llegar</a><a className="btn primary" href="#menu">Ver menú</a></div></section>}
